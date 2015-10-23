@@ -1,6 +1,13 @@
-*{
-	margin: 0;
+body{
+	background: #f2f2f2;
+		margin: 0;
 	padding: 0;
+}
+
+.slider{
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
 }
 
 .slides{

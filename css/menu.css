@@ -1,4 +1,6 @@
 #listaMenu {
+    float: right;
+width: 90%;
 padding: 0;
 position: fixed;
 z-index: 100;
@@ -13,12 +15,12 @@ font-size:11px;
 text-decoration: none;
 float:left;
 padding: 10px;
-background-color: #2175bc;
+background-color: #4ED733;
 color: #fff;
 }
 
 #listaMenu li a:hover {
-background-color: #2586d7;
+background-color: #A0F28F;
 margin-top:-2px;
 padding-bottom:12px;
 }

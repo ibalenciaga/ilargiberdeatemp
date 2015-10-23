@@ -1,4 +1,5 @@
-	$(function(){
+<script>
+$(function(){
   $(".slides").slidesjs({
     play: {
       active: true,
@@ -17,5 +18,6 @@
       restartDelay: 2500
         // [number] restart delay on inactive slideshow
     }
-  });
-});
+  })
+})
+</script>

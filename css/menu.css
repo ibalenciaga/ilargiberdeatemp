@@ -1,10 +1,12 @@
 #listaMenu {
 padding: 0;
+position: fixed;
+z-index: 100;
 }
-#listaMenu li {
+#listaMenu1 {
 display: inline;
 }
-
+/*
 #listaMenu li a {
 font-family: Arial;
 font-size:11px;
@@ -20,3 +22,5 @@ background-color: #2586d7;
 margin-top:-2px;
 padding-bottom:12px;
 }
+
+*/

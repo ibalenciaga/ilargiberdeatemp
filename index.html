@@ -1,46 +1,53 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	
 	<title>ILARGI BERDEA</title>
-	
-	<!--IMPORTAR ARCHIVOS css-->
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	
-	<!--IMPORTAR ARCHIVOS Js-->
-	<script type="text/javascript" src="lib/jquery-1.11.3.min.js"></script>
-	<style type="text/css">
-		#imagen{
-			z-index: -1;
-		}
-	</style>
-	
+	<link rel="stylesheet" href="css/index.css">
+
 </head>
 <body>
 
-<div id="index">
-	<div>
-	<!--MENU-->
-	<header class="header">
-		<nav>
-			<ul id="listaMenu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Clients</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">F.A.Q</a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
+	<header>
+		
+		<div class="contenedor" id="uno">
+			<img class="icon" src="img/proiektua.ico">
+			<p class="texto">PROIEKTUA</p>
+		</div>
+
+		<div class="contenedor" id="dos" onclick="location.href='html/galeria.html';">
+			<img class="icon" src="img/galeria.ico">
+			<p class="texto">GALERIA</p>
+		</div>
+
+		<div class="contenedor" id="tres">
+			<img class="icon" src="img/taldea.ico" onclick="location.href='html/monitoreak.html';">
+			<p class="texto">MONITOREAK</p>
+		</div>
+
+		<div class="contenedor" id="cuatro">
+			<img class="icon" src="img/ordutegia.ico">
+			<p class="texto">ORDUTEGIA</p>
+		</div>
+
+		<div class="contenedor" id="cinco">
+			<img class="icon" src="img/tarifak.ico">
+			<p class="texto">TARIFAK</p>
+		</div>
+
+		<div class="contenedor" id="seis">
+			<img class="icon" src="img/kontaktua.ico">
+			<p class="texto">KONTAKTUA</p>
+		</div>
+
+		<div class="contenedor" id="siete">
+			<img class="icon" src="img/bazkideak.ico">
+			<p class="texto">BAZKIDEAK</p>
+		</div>
+
 	</header>
-	</div>
-	<!--IMAGEN FONDO-->
-	<div>
-		<img id="imagen"src="img/logo.jpg">
-	</div>  
-</div>
+
+	
+
 </body>
 </html>

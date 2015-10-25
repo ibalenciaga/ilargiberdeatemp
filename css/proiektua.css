@@ -4,3 +4,9 @@
 p{
 	text-align: justify;
 }
+
+table{
+	margin:150px auto;
+	width:1200px;
+	height:230px;
+}

@@ -16,35 +16,9 @@ div.contenedor{
 	hei1ht: 230px;
 	float:left;
 	-webkit-transition: height .4s;
+	background-color: #0CE104;
 }
 
-div#uno{
-	background-color: #0ED518;
-}
-
-div#dos{
-	background-color: #0BB013;
-}
-
-div#tres{
-	background-color: #07820D;
-}
-
-div#cuatro{
-	background-color: #0D6611;
-}
-
-div#cinco{
-	background-color: #07820D;
-}
-
-div#seis{
-	background-color: #0BB013;
-}
-
-div#siete{
-	background-color: #0ED518;
-}
 
 img.icon{
 	display: block;
@@ -71,6 +45,7 @@ p.texto{
 div.contenedor:hover{
 	cursor: pointer;
 	height:250px;
+	background-color: #20F918;
 }
 
 div.contenedor:hover p.texto{

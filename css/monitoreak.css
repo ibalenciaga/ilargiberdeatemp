@@ -7,6 +7,21 @@ body{
 	background: #08CC05;
 }
 
+header{
+	margin:150px auto;
+	width:1200px;
+	height:230px;
+	background-color: #08CC05;
+}
+
+#info{
+	width: 171px;
+	hei1ht: 230px;
+	float:left;
+	-webkit-transition: height .4s;
+	background-color: #08CC05;
+}
+
 #retratos{
 	text-align: center;
 }

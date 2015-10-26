@@ -2,13 +2,14 @@
 	margin:0px;
 	padding:0px;
 	font-family: Helvetica Neue; 
+	background-color: #08CC05;
 }
 
 header{
 	margin:150px auto;
 	width:1200px;
 	height:230px;
-	background-color: white;
+	background-color: #08CC05;
 }
 
 div.contenedor{
@@ -16,7 +17,7 @@ div.contenedor{
 	hei1ht: 230px;
 	float:left;
 	-webkit-transition: height .4s;
-	background-color: #0CE104;
+	background-color: #08CC05;
 }
 
 
@@ -24,6 +25,7 @@ img.icon{
 	display: block;
 	margin:50px auto;
 	background-color: rgba(255,255,255,.15);
+	border-color: red;
 	width:40px;
 	padding:20px;
 	-webkit-border-radius: 50%;

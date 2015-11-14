@@ -8,10 +8,15 @@ th{
 
 td{
 	font-size:18px;
-	width: 1%;
+	
 }
 
 h3{
 	background-color: black;
 	color: white;
+}
+
+td, th{
+	table-layout: fixed;
+	width: 10%;
 }

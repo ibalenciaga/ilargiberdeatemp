@@ -1,0 +1,22 @@
+.containerTable{
+	margin-top: 5%;
+}
+
+th{
+	font-size:18px;
+}
+
+td{
+	font-size:18px;
+	
+}
+
+h3{
+	background-color: black;
+	color: white;
+}
+
+td, th{
+	table-layout: fixed;
+	width: 10%;
+}

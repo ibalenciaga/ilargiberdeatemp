@@ -1,0 +1,12 @@
+
+.full {
+    background: url(../img/galeria/FondoWeb.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#texto{
+	margin-top: 3%;
+}
